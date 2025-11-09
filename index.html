@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Harika — Portfolio</title>
+  <meta name="description" content="Harika (Haari) — Web Developer. Portfolio showcasing projects, skills and contact details." />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js" defer></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <header class="header" role="banner">
+    <a href="#home" class="logo">Portfolio<span>.</span></a>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <a href="#home" style="--i:1" class="active">Home</a>
+      <a href="#about" style="--i:2">About</a>
+      <a href="#services" style="--i:3">Services</a>
+      <a href="#skills" style="--i:4">Skills</a>
+      <a href="#contact" style="--i:5">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home / Hero -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Menni Hima Harika</h1>
+      <h3>And I'm a <span class="text"></span></h3>
+      <p>
+        I'm a web developer and designer and also an AIML enthusiast currently studying B.Tech CSE (2nd year) at IIT Indore.
+        I build interactive front-end experiences and full-stack prototypes. I enjoy working on
+        multilingual and computer-vision projects (e.g., OCR), and clean UI design. I also enjoy solving a variety of DSA problems.
+      </p>
+
+
+      <div class="home-sci" aria-hidden="false">
+        <!-- replace hrefs with your profiles -->
+        <a href="#" style="--i:7" aria-label="Facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#"  style="--i:8" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" style="--i:9" aria-label="WhatsApp"><i class="bx bxl-whatsapp"></i></a>
+        <a href="#" style="--i:10" aria-label="YouTube / TikTok"><i class="bx bxl-youtube"></i></a>
+      </div>
+
+      <a href="#about" class="btn-box">More About Me</a>
+    </div>
+    <div class="home-img">
+      <div class="glow-circle">
+        <img src="portfolio.jpg" alt="Harika">
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="about-img">
+    <div class="glow-circle">
+      <img src="portfolio.jpg" alt="Portrait of Harika (Haari)">
+    </div>
+    </div>
+    <div class="about-text">
+      <h2>About <span>Me</span></h2>
+      <h4>Frontend Developer & AIML Entusiast</h4>
+      <p>
+        Hi — I'm Harika. My passion lies in creating captivating website designs and implementing
+        them through frontend development.I also have some basic knowledge about backend libraries
+        like flask which i have used in one of my projects.I love building clean user interfaces, accessible components,
+        and prototypes that solve real user problems. My recent work includes a multilingual OCR
+        web app (PolyOCR), various frontend projects, and small full-stack apps using Flask.I also have some knowledge on Machine learning
+        where i have completed a course in coursera.Also have a better knowledge in DSA with cpp, where i have solved numerous problems in 
+        codefirces and other competitive programming platforms.
+      </p>
+      <a href="#contact" class="btn-box">Work with me</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" aria-labelledby="services-title">
+    <div class="services container">
+      <h1 class="sub-title" id="services-title">What I Can <span>Do</span></h1>
+      <div class="services-list">
+        <div>
+          <i class="bx bx-code" style="color:#00eeff"></i>
+          <h2>Frontend Development</h2>
+          <p>I build responsive, clean, and interactive web interfaces using HTML, CSS, and JavaScript.</p>
+          <a class="read" href="#projects">learn more</a>
+        </div>
+
+        <div>
+          <i class="bx bx-crop" style="color:#00eeff"></i>
+          <h2>Python Programming</h2>
+          <p>Experienced in writing efficient Python code and solving problems through structured logic. </p>
+          <a class="read" href="#projects">learn more</a>
+        </div>
+
+        <div>
+          <i class="bx bxl-apple" style="color:#00eeff"></i>
+          <h2>Machine Learning Basics</h2>
+          <p>Familiar with Python libraries like NumPy, Pandas, and Scikit-learn for simple data tasks.</p>
+          <a class="read" href="#projects">learn more</a>
+        </div>
+        <div>
+          <i class="bx bxl-apple" style="color:#00eeff"></i>
+          <h2>DSA</h2>
+          <p>Can solve various problems related to data structures.</p>
+          <a class="read" href="#projects">learn more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <h1 class="sub-title">My<span>Skills</span></h1>
+  <section>
+    <div class="container1" id="skills">
+      <h1 class="heading1">Technical Skills</h1>
+      <div class="Technical-bars">
+        <div class="bar"><i style="color: #c95d2e" class="bx bxl-html5"></i>
+          <div class="info"><span>HTML</span></div>
+          <div class="progress-line html"><span></span></div>
+        </div>
+
+        <div class="bar"><i style="color: #147bbc" class="bx bxl-css3"></i>
+          <div class="info"><span>CSS</span></div>
+          <div class="progress-line css"><span></span></div>
+        </div>
+
+        <div class="bar"><i style="color: #b0bc1e" class="bx bxl-javascript"></i>
+          <div class="info"><span>JavaScript</span></div>
+          <div class="progress-line javascript"><span></span></div>
+        </div>
+
+        <div class="bar"><i style="color: #c32ec9" class="bx bxl-python"></i>
+          <div class="info"><span>Python</span></div>
+          <div class="progress-line python"><span></span></div>
+        </div>
+
+        <div class="bar"><i style="color: #69bcbc" class="bx bxl-c-plus-plus"></i>
+          <div class="info"><span>C++</span></div>
+          <div class="progress-line cpp"><span></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container1">
+      <h1 class="heading1">Professional Skills</h1>
+      <div class="radial-bars">
+        <div class="radial-bar">
+          <svg viewBox="0 0 200 200" aria-hidden="true">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">75%</div>
+          <div class="text">Creativity</div>
+        </div>
+
+        <div class="radial-bar">
+          <svg viewBox="0 0 200 200" aria-hidden="true">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">80%</div>
+          <div class="text">Communication</div>
+        </div>
+
+        <div class="radial-bar">
+          <svg viewBox="0 0 200 200" aria-hidden="true">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">75%</div>
+          <div class="text">Problem Solving</div>
+        </div>
+
+        <div class="radial-bar">
+          <svg viewBox="0 0 200 200" aria-hidden="true">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">85%</div>
+          <div class="text">Teamwork</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects / Portfolio -->
+  <section>
+    <div class="portfolio" id="project">
+      <div class="main-text">
+        <h2>Latest <span>Project</span></h2>
+        <div class="portfolio-content">
+          <div class="row">
+            <img src="polyocr.png" alt="PolyOCR screenshot" />
+            <div class="layer">
+              <h5>PolyOCR</h5>
+              <p>Multilingual OCR web app (EasyOCR + TrOCR), printed & handwritten text detection.</p>
+              <a href="https://huggingface.co/spaces/HimaHarika2827/polyocr" target="_blank" rel="noopener"><i class="bx bx-link-external" style="color: aliceblue"></i></a>
+            </div>
+          </div>
+
+          <div class="row">
+            <img src="smartcity.png" alt="Transport Finder screenshot" />
+            <div class="layer">
+              <h5>Smart city Management</h5>
+              <p>This is basically a DBMS project which manages a smart city with different portals available. One can login into their account and get various details about things happening in a city.</p>
+              <a href="https://github.com/yourusername/TransportFinder" target="_blank" rel="noopener"><i class="bx bx-link-external" style="color: aliceblue"></i></a>
+            </div>
+          </div>
+
+          <div class="row">
+            <img src="leetcode.png" alt="UI/UX project screenshot" />
+            <div class="layer">
+              <h5>Leetcode solution viewer</h5>
+              <p>Leetcode problem solution viewer on entering the question number or name with the facility to choose language.</p>
+              <a href="https://github.com/HimaHarika282/Leetcode-Solution-viewer" target="_blank" rel="noopener"><i class="bx bx-link-external" style="color: aliceblue"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact" >
+    <div class="content-text">
+      <h1 class="sub-title" id="contact-title">Contact <span>Me</span></h1>
+      <h4>Let's connect and create something amazing!</h4>
+      <p>
+        Interested in collaborating? I’m open to internships, freelance projects and research collaborations.
+        Drop a message below or email me directly.
+      </p>
+
+      <ul class="contact-list" aria-label="Contact details">
+        <li><i class="bx bxs-send"></i><a href="mailto:harika@example.com">himaharika282@gmail.com</a></li>
+        <li><i class="bx bxs-send"></i><a href="mailto:harika@example.com">cse240001046iiti.ac.in</a></li>
+        <li><i class="bx bxs-phone"></i><a href="tel:+911234567890">+91 9014121101</a></li>
+      </ul>
+
+      <div class="contact-icons" aria-hidden="false">
+        <a href="https://instagram.com/harika___282" target="_blank" rel="noopener" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/harika-m-3a9641342" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/HimaHarika282"><i class='bx bxl-github'></i></a>
+        <a href="https://codeforces.com/profile/himaharika282"><i class='bx bxl-codeforces'></i></a>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <form id="contactForm" action="#" method="post" aria-label="Contact form">
+        <input name="name" type="text" placeholder="Enter Your Name" required />
+        <input name="email" type="email" placeholder="Enter Your Email" required />
+        <input name="subject" type="text" placeholder="Enter Your Subject" />
+        <textarea name="message" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+        <input type="submit" value="Send" class="send" />
+        <p id="formMessage" aria-live="polite" style="margin-top:8px;"></p>
+      </form>
+    </div>
+  </section>
+
+  <div class="last-text">
+    <p>Developed by Harika — 2025</p>
+  </div>
+
+  <a href="#home" class="top" aria-label="Back to top"><i class="bx bx-up-arrow-alt"></i></a>
+</body>
+</html>

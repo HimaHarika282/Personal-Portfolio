@@ -420,3 +420,8 @@ body {
 .contact-icons a:hover .cf-icon {
   fill: #081b29;
 }
+
+
+#projects {
+  margin-top: 80px;
+}

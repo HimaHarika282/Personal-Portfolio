@@ -2,12 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
   <title>Menni Hima Harika | Portfolio</title>
-
-  <meta name="description"
-    content="Menni Hima Harika — Frontend Developer and CSE undergraduate at IIT Indore. Portfolio showcasing projects, skills, and experience." />
 
   <link rel="stylesheet" href="style.css" />
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
@@ -32,29 +28,31 @@
   <div class="home-content">
     <h3>Hello, I'm</h3>
     <h1>Menni Hima Harika</h1>
+
+    <p style="margin-top:10px; color:#0ef;">
+      
+    </p>
+
     <h3>I am a <span class="text"></span></h3>
-      <p>
-        Computer Science undergraduate at IIT Indore with a strong focus on
-        data structures, algorithms, and problem solving. Active competitive
-        programmer with solid DSA fundamentals in C++. I also build clean,
-        responsive web interfaces and have contributed as a frontend developer
-        to a multilingual OCR web application. Currently exploring machine
-        learning concepts at a foundational level.
-      </p>
+
+    <p>
+      Computer Science undergraduate at IIT Indore with strong problem solving skills and experience
+      building full-stack applications. Worked on projects involving authentication, analytics,
+      and multilingual OCR systems. Comfortable with DSA and developing practical web solutions.
+    </p>
 
     <div class="home-sci">
-      <a href="https://github.com/HimaHarika282" target="_blank" aria-label="GitHub">
+      <a href="https://github.com/HimaHarika282" target="_blank">
         <i class="bx bxl-github"></i>
       </a>
-      <a href="https://www.linkedin.com/in/harika-m-3a9641342" target="_blank" aria-label="LinkedIn">
+      <a href="https://www.linkedin.com/in/harika-m-3a9641342" target="_blank">
         <i class="bx bxl-linkedin"></i>
       </a>
-      <a href="https://codeforces.com/profile/himaharika282" target="_blank" aria-label="Codeforces">
+      <a href="https://codeforces.com/profile/himaharika282" target="_blank">
         <svg class="cf-icon" viewBox="0 0 24 24">
           <path d="M4 17h4V7H4v10zm6 0h4V3h-4v14zm6 0h4V11h-4v6z"/>
         </svg>
       </a>
-
     </div>
 
     <a href="#projects" class="btn-box">View Projects</a>
@@ -62,7 +60,7 @@
 
   <div class="home-img">
     <div class="glow-circle">
-      <img src="portfolio.jpeg" alt="Harika portrait">
+      <img src="portfolio.jpeg">
     </div>
   </div>
 </section>
@@ -71,12 +69,12 @@
   <h1 class="sub-title">What I <span>Work On</span></h1>
 
   <div class="services-list">
+
     <div>
       <i class="bx bx-code"></i>
-      <h2>Frontend Development</h2>
+      <h2>Full-Stack Development</h2>
       <p>
-        Building responsive and accessible user interfaces using
-        HTML, CSS, JavaScript, and Flask-based backends.
+        Building complete applications with frontend and backend integration.
       </p>
     </div>
 
@@ -84,19 +82,18 @@
       <i class="bx bx-brain"></i>
       <h2>Problem Solving (DSA)</h2>
       <p>
-        Strong foundation in data structures and algorithms with
-        consistent competitive programming practice in C++.
+        Strong foundation in data structures and algorithms with competitive programming.
       </p>
     </div>
 
     <div>
-      <i class="bx bx-data"></i>
-      <h2>ML & Data Basics</h2>
+      <i class="bx bx-layer"></i>
+      <h2>Real-world Projects</h2>
       <p>
-        Familiar with NumPy, Pandas, and Scikit-learn for
-        basic data processing and ML workflows.
+        Developing practical systems involving authentication, analytics, and data handling.
       </p>
     </div>
+
   </div>
 </section>
 
@@ -122,12 +119,7 @@
 
     <div class="skill-card">
       <h3>Core CS</h3>
-      <p>Data Structures, Algorithms, Problem Solving</p>
-    </div>
-
-    <div class="skill-card">
-      <h3>ML & Data</h3>
-      <p>NumPy, Pandas, Scikit-learn (Basics)</p>
+      <p>Data Structures, Algorithms</p>
     </div>
 
   </div>
@@ -140,13 +132,29 @@
 
       <div class="portfolio-content">
 
+        <!-- Shortify -->
         <div class="row">
-          <img src="polyocr.png" alt="PolyOCR">
+          <img src="shortify.png">
+          <div class="layer">
+            <h5>Shortify</h5>
+            <p>
+              URL shortener with authentication, custom aliases,
+              expiry handling, and click analytics dashboard.
+            </p>
+            <a href="https://shortify-url-shortener-4w69.onrender.com" target="_blank">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- PolyOCR -->
+        <div class="row">
+          <img src="polyocr.png">
           <div class="layer">
             <h5>PolyOCR</h5>
             <p>
-              Multilingual OCR web application. Contributed as frontend developer
-              integrating EasyOCR & TrOCR outputs into a Flask interface.
+              Multilingual OCR system using EasyOCR and TrOCR
+              with structured output visualization.
             </p>
             <a href="https://huggingface.co/spaces/HimaHarika2827/polyocr" target="_blank">
               <i class="bx bx-link-external"></i>
@@ -154,29 +162,16 @@
           </div>
         </div>
 
+        <!-- CitySync -->
         <div class="row">
-          <img src="smartcity.png" alt="CitySync">
+          <img src="smartcity.png">
           <div class="layer">
             <h5>CitySync</h5>
             <p>
-              Smart city database management system using MySQL
-              for structured urban data handling.
+              Smart city database system for structured urban data
+              and backend integration.
             </p>
             <a href="https://github.com/HimaHarika282/CITY_SYNC" target="_blank">
-              <i class="bx bx-link-external"></i>
-            </a>
-          </div>
-        </div>
-
-        <div class="row">
-          <img src="leetcode.png" alt="Leetcode Viewer">
-          <div class="layer">
-            <h5>Leetcode Solution Viewer</h5>
-            <p>
-              Tool to view LeetCode solutions by problem name or number
-              with language selection.
-            </p>
-            <a href="https://github.com/HimaHarika282/Leetcode-Solution-viewer" target="_blank">
               <i class="bx bx-link-external"></i>
             </a>
           </div>
@@ -190,27 +185,20 @@
 <section class="contact" id="contact">
   <div class="contact-text">
     <h2>Contact <span>Me</span></h2>
-    <p>
-      Open to internships and collaborative projects.
-      Feel free to reach out.
-    </p>
+    <p>Open to internships and collaborative projects.</p>
 
     <ul class="contact-list">
-      <li>📧 Personal: himaharika282@gmail.com</li>
-      <li>📧 Institute: cse240001046@iiti.ac.in</li>
-      <li>📱 +91 9014121101</li>
+      <li>📧 himaharika282@gmail.com</li>
     </ul>
-
 
     <div class="contact-icons">
       <a href="https://github.com/HimaHarika282" target="_blank"><i class="bx bxl-github"></i></a>
       <a href="https://www.linkedin.com/in/harika-m-3a9641342" target="_blank"><i class="bx bxl-linkedin"></i></a>
-      <a href="https://codeforces.com/profile/himaharika282" target="_blank" aria-label="Codeforces">
+      <a href="https://codeforces.com/profile/himaharika282" target="_blank">
         <svg class="cf-icon" viewBox="0 0 24 24">
           <path d="M4 17h4V7H4v10zm6 0h4V3h-4v14zm6 0h4V11h-4v6z"/>
         </svg>
       </a>
-
     </div>
   </div>
 </section>
